@@ -7,6 +7,8 @@ The dataset contains 150 different flowers, or 50 each from three different spec
 ### Analysis
 One interesting pattern that can be seen in plots is that the plants seem to belong to one of two groups, where Iris versicolor and Iris virginica seem to have similar values for petal length, while Iris setosa belongs in a category all by itself.
 In fact, according to this dataset, we might even be able to classify any iris plant as Iris setosa (as opposed to Iris versicolor or Iris virginica) just by looking at the petal length: if the petal length of an iris flower is less than 2 cm, it's most likely to be Iris setosa!
+In the plot below, the color-coding shows us how likely we are to see different combinations of sepal width and petal length, where darker parts of the figure are more likely.
+![png](iris_2kdeplot.png)
 
 ## Spotify Dataset
 The dataset for this tutorial tracks global daily streams on the music streaming service Spotify. We focus on five popular songs from 2017 and 2018: "Shape of You", by Ed Sheeran, "Despacito", by Luis Fonzi, "Something Just Like This", by The Chainsmokers and Coldplay, "HUMBLE.", by Kendrick Lamar and"Unforgettable", by French Montana
